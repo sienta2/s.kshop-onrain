@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s.kshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="images/logo.webp" alt="お店のロゴ" class="logo">
+        <h1 class="title">ようこそ新しいs.k会社shop！</h1>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>お店の紹介</h2>
+            <p>最高の商品をお届けします！お得な会員登録もぜひご利用ください。ポイントもザクザク貯まるsポイント！そして一番高級なコーヒーまであります！
+                うますぎと有名なピクミングミもあります。どうか商品をご購入ください。おねがいします。ザクザクチョコや、キムチや、キットカットもあります。どうかご購入してください
+            </p>
+        </section>
+        
+        <section class="membership">
+            <h2>会員登録のご案内</h2>
+            <p>会員になると、お得な情報や特典がもらえます。</p>
+            <a href="membership.html" class="button">会員登録はこちら</a>
+        </section>
+
+        <section class="products">
+            <h2>おすすめ商品</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <span class="product-name">コピ・ルアク豆</span>
+                    <span class="product-price">￥1,200</span>
+                    <button class="purchase-button">購入</button>
+                </div>
+                <div class="product-item">
+                    <span class="product-name">オーガニック紅茶</span>
+                    <span class="product-price">￥900</span>
+                    <button class="purchase-button">購入</button>
+                </div>
+                <div class="product-item">
+                    <span class="product-name">ゴールドチョコレート</span>
+                    <span class="product-price">￥1,500</span>
+                    <button class="purchase-button">購入</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="location" id="location"></div>
+
+        <nav class="menu">
+            <a href="index.html" class="button">ホーム</a>
+            <a href="products.html" class="button">商品</a>
+            <a href="membership.html" class="button">会員情報</a>
+            <a href="contact.html" class="button">お問い合わせ</a>
+            <a href="menu.html" class="button">メニュー</a>
+        </nav>
+    </main>
+
+    <div id="purchase-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p>美味しいよ！というお声が。</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
